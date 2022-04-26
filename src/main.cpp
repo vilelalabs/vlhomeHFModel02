@@ -10,7 +10,7 @@
     This code is exclusive for Model 02 VLHome Hardware.
     Controls:
       - 01 Relay on GPIO12 of ESP8266-12F board.
-      - 01 Switch on GPIO13 of ESP8266-12F board.
+      - 01 Switch on GPIO05 of ESP8266-12F board.
 
  */
 
