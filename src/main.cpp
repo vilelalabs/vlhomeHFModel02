@@ -20,7 +20,7 @@
 #include "FireBaseAccess.h"
 
 #define CTRL_PIN 12
-#define SWITCH_PIN 13
+#define SWITCH_PIN 5
 #define TYPE "light"
 #define START_VALUE "Apagada"
 
