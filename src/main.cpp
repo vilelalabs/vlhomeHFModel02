@@ -10,7 +10,7 @@
     This code is exclusive for Model 02 VLHome Hardware.
     Controls:
       - 01 Relay on GPIO12 of ESP8266-12F board.
-      - 01 Switch on GPIO05 of ESP8266-12F board.
+      - 01 Switch on GPIO04 of ESP8266-12F board.
 
  */
 
@@ -20,7 +20,7 @@
 #include "FireBaseAccess.h"
 
 #define CTRL_PIN 12
-#define SWITCH_PIN 5
+#define SWITCH_PIN 4
 #define TYPE "light"
 #define START_VALUE "Apagada"
 
@@ -54,11 +54,10 @@ void loop() {
   ESPWiFiWebUpdateLoop();
   FireBaseAccessLoop(CTRL_PIN);
 
-  if(digitalRead(SWITCH_PIN) != switchStatus ){
-        toggleDeviceValue(CTRL_PIN);
-        switchStatus = !switchStatus;
+  if (digitalRead(SWITCH_PIN) != switchStatus) {
+    toggleDeviceValue(CTRL_PIN);
+    switchStatus = !switchStatus;
   }
- 
 }
 
 //------------------------------------------------------------------------------
@@ -66,8 +65,9 @@ void initializePages() {
   // páginas de acionamento do dispositivo via web
   httpServer.on("/toggle", []() {
     toggleDeviceValue(CTRL_PIN);
-    httpServer.send(200, "text/plain",
-      digitalRead(CTRL_PIN)?" Lampada Acesa":"Lampada Apagada");
+    httpServer.send(
+        200, "text/plain",
+        digitalRead(CTRL_PIN) ? " Lampada Acesa" : "Lampada Apagada");
   });
   // para dispositivos apenas ON/OFF --------------------------------
   httpServer.on("/statusCTRL_PIN", []() {
