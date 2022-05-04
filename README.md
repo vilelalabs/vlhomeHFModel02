@@ -1,66 +1,66 @@
 # VLHOME Hardware Firmware - MODEL 02
 
-Dispositivo acionado remotamente via Wifi com conexão a banco de dados do Firebase
+Remotely activated device through Wifi connection with a Firebase database.
 
-## Projeto
+## Project
 
-Este software foi desenvolvido para uso no microcontrolador ESP8266-12 (4Mb flash) para controle de um dispositivo de alta tensão e conexão de um interruptor de acionamento físico.
+This software was developed to be used on ESP8266-12 (4Mb flash) microcontroller to controls a high voltage device and connecting to a physical activated switch.
 
-## Funcionamento
+## Operation
 
-O dispositivo pode ser acionado por três modos diferentes:
+the device can be activated through three ways:
 
 
-### > Aplicativo
-Através do uso de aplicativo próprio:  [VLHome App](https://github.com/vilelalabs/vlhome) 
+### > Application
+Through using dedicated Application:  [VLHome App](https://github.com/vilelalabs/vlhome) 
 
 
 ### > Webpage
-Através de webpage pelos dos endereços:
+Through webpage using the addresses:
 
-|Link |Função|
+|Link |Function|
 |:----------:|:----------:|
-|http://IP-do-dispositivo/|home page confirmando a conexão|
-|http://IP-do-dispositivo/update|atualização via OTA|
-|http://IP-do-dispositivo/toggle|inverte o status atual do dispositivo|
-|http://IP-do-dispositivo/hostname|mostra o host name do dispositivo|
+|http://device-IPAdress/|home page that confirms the connection|
+|http://device-IPAdress/update|update through OTA|
+|http://device-IPAdress/toggle|toggles the current state of the device|
+|http://device-IPAdress/hostname|shows the host name of the device|
 
-> exemplo: http://192.168.1.225/update
-
-
-### > Interruptor
-
-Pode ser acionado fisicamente atráves do interruptor físico ligado ao conector CON1 (SWITCH) na placa (ver imagens) - a conexão deste interruptor é opcional.
+> example: http://192.168.1.225/update
 
 
-# Instalação e Habilitação
+### > Switch
 
-Até o momento (versão 1.0) é necessário usar um aplicativo auxiliar da Espressif para que o novo dispositivo seja conectado na rede local. O aplicativo utilizado é o [EspTouch: SmartConfig for ESP ESP8266, ESP32](https://play.google.com/store/apps/details?id=com.khoazero123.iot_esptouch_demo). Nele você irá inserir a SSID da rede e a senha.
+Can be physically actvated bt the switch linked to CON1 (SWITCH) connector onboard (see images) - this connection is optional.
 
-Após um período o dispositivo é localizado e o IP é exibido, tome nota do mesmo para utilizar o método de acionamento via webpage, ou mesmo para comparar no reconhecimento do *Novo Dispositivo* via [App](https://github.com/vilelalabs/vlhome).
 
-A partir deste ponto já podem ser utilizados os métodos de acionamento via **webpage** e **interruptor**, porém para uso no **App** o dispositivo deve ser localiza-lo no smartphone utilizando o menu: 
+# Installation 
+
+Until now (version: 1.0) its needed to use an auxiliar application from Espressif to connect the device to the local network. The application used is [EspTouch: SmartConfig for ESP ESP8266, ESP32](https://play.google.com/store/apps/details?id=com.khoazero123.iot_esptouch_demo). On it you will need to put the SSID and password information.
+
+After some time the device is found and it shows the IP address, take note to use the webpage activation method, or even to compare to new device configuration screen (*Novo Dispositivo*) through [App](https://github.com/vilelalabs/vlhome).
+
+From this point  **webpage** and **switch** methods can be used already , but on the **App**, you still need use the menu before: 
 
 **Configurações > Dispositivos > Novo > Buscar Novo Dispositivo**
 
-# Pasta eaglefiles
+# Folder eaglefiles
 
-Nesta pasta poderão ser encontrados os arquivos necessários para execução eletrônica do hardware:
+In this folder you will find the necessary files for building the hardware board: 
 
-- Projeto do Eagle
-- Arquivo de Esquemático (SCH)
-- Arquivo da placa (BRD)
-- Arquivo com a lista de componentes (BOM)
-- Arquivo PDF pronto para impressão do Layout da placa
+- Eagle project
+- Schematic file (SCH)
+- Board file (PCB layout) (BRD)
+- Bill of Materials file (BOM)
+- PDF file with a ready-for-printing page with the board layout.
 
-# Imagens
+# Images
 
-## Esquemático
+## Schematic
 ![](img/schematic.JPG)
-## Placa (PCB)
+## Board (PCB)
 ![](img/board.JPG)
 ## 3D
-|Superior |Inferior|
+|Top Side |Bottom side|
 |:----------:|:----------:|
 |![](img/3Dtop.JPG)|![](img/3Dbottom.JPG)|
 
