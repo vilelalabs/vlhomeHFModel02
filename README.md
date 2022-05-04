@@ -48,8 +48,9 @@ A partir deste ponto já podem ser utilizados os métodos de acionamento via **w
 Nesta pasta poderão ser encontrados os arquivos necessários para execução eletrônica do hardware:
 
 - Projeto do Eagle
-- Arquivo de Esquemático
-- Arquivo da placa (PCB)
+- Arquivo de Esquemático (SCH)
+- Arquivo da placa (BRD)
+- Arquivo com a lista de componentes (BOM)
 - Arquivo PDF pronto para impressão do Layout da placa
 
 # Imagens

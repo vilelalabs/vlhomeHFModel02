@@ -1,0 +1,19 @@
+Part List
+
+Part Value            Device           Package                Description                                  
+C1   100uF            CPOL-EUE2.5-7    E2,5-7           POLARIZED CAPACITOR, European symbol         
+C2   100uF            CPOL-EUE2.5-7    E2,5-7           POLARIZED CAPACITOR, European symbol         
+CON1 KF301-2P         KF301-2P         KF301-2P         2 Pin Terminal Block 5mm Pitch Check prices  
+CON2 KF301-2P         KF301-2P         KF301-2P         2 Pin Terminal Block 5mm Pitch Check prices  
+CON3 KF301-2P         KF301-2P         KF301-2P         2 Pin Terminal Block 5mm Pitch Check prices  
+D1   1N4148           LL4148           SOD80            1N4148 General Purpose Rectifie              
+IC1  LM1117MP-3.3     LM1117MP-3.3     SOT223           800mA Low-Dropout Linear Regulator           
+K1   HK4100F-DC3V-SHG HK4100F-DC3V-SHG HK4100FDC3VSHG   Relays Gen Purpose 3.3VDC SPDT 3A (250VAC , 30VDC)
+Q1   BC848            BC848            SOT23            NPN TRANSISTOR                              
+R1   10k              R-EU_R0805       R0805            RESISTOR, European symbol                        
+R2   10k              R-EU_R0805       R0805            RESISTOR, European symbol                        
+R3   10k              R-EU_R0805       R0805            RESISTOR, European symbol                        
+R4   10k              R-EU_R0805       R0805            RESISTOR, European symbol                        
+U1   ESP8266-12       ESP12F           ESP12F           ESP8266 12F SMD mount
+
+* R1, R2 and R3 can be changed for similar values when mounting.
