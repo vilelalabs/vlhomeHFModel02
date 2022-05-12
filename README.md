@@ -49,7 +49,7 @@ In this folder you will find the necessary files for building the hardware board
 
 - Eagle project
 - Schematic file (SCH)
-- Board file (PCB layout) (BRD)
+- Board file (PCB layout) (BRD) (between the two projects - one/two side only capacitor package is different)
 - Bill of Materials file (BOM)
 - PDF file with a ready-for-printing page with the board layout.
 
