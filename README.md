@@ -53,14 +53,21 @@ In this folder you will find the necessary files for building the hardware board
 - Bill of Materials file (BOM)
 - PDF file with a ready-for-printing page with the board layout.
 
+_* there is two versions for one side cooper and double sided cooper boards, see by file names_
 # Images
 
 ## Schematic
-![](img/schematic.JPG)
+![](img/model_2_2sided_schematic.JPG)
 ## Board (PCB)
 ![](img/board.JPG)
-## 3D
+### Double Sided Board (PCB)
 |Top Side |Bottom side|
 |:----------:|:----------:|
+|![](img/top3D_model2_2sided_brd.JPG)|![](img/bottom3D_model2_2sided_brd.JPG)|
+## 3D View
+|Top Side - Single Cooper |Bottom side - Single Cooper|
+|:----------:|:----------:|
 |![](img/3Dtop.JPG)|![](img/3Dbottom.JPG)|
+|Top Side - Double Side Cooper|Bottom side - Double Side Cooper|
+|![](img/top3D_model2_2sided.JPG)|![](img/bottom3D_model2_2sided.JPG)|
 
