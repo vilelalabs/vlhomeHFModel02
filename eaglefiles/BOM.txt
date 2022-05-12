@@ -17,3 +17,4 @@ R4   10k              R-EU_R0805       R0805            RESISTOR, European symbo
 U1   ESP8266-12       ESP12F           ESP12F           ESP8266 12F SMD mount
 
 * R1, R2 and R3 can be changed for similar values when mounting.
+* for double sided board is used SMD capacitors with [6.3 x 7.7] package dimensions
