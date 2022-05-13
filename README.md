@@ -52,6 +52,7 @@ In this folder you will find the necessary files for building the hardware board
 - Board file (PCB layout) (BRD) (between the two projects - one/two side only capacitor package is different)
 - Bill of Materials file (BOM)
 - PDF file with a ready-for-printing page with the board layout.
+- MODEL_2_Gerber.zip for sent to a professinal fabrication
 
 _* there is two versions for one side cooper and double sided cooper boards, see by file names_
 # Images
