@@ -54,14 +54,14 @@ In this folder you will find the necessary files for building the hardware board
 - PDF file with a ready-for-printing page with the board layout.
 - MODEL_2_Gerber.zip for sent to a professinal fabrication
 
-_* there is two versions for one side cooper and double sided cooper boards, see by file names_
+_* there is two versions for one side cooper and Double Layer  boards, see by file names_
 # Images
 
 ## Schematic
 ![](img/model_2_2sided_schematic.JPG)
 ## Board (PCB)
 ![](img/board.JPG)
-### Double Sided Board (PCB)
+### Double Layer  Board (PCB)
 |Top Side |Bottom side|
 |:----------:|:----------:|
 |![](img/top3D_model2_2sided_brd.JPG)|![](img/bottom3D_model2_2sided_brd.JPG)|
@@ -69,6 +69,6 @@ _* there is two versions for one side cooper and double sided cooper boards, see
 |Top Side - Single Cooper |Bottom side - Single Cooper|
 |:----------:|:----------:|
 |![](img/3Dtop.JPG)|![](img/3Dbottom.JPG)|
-|Top Side - Double Side Cooper|Bottom side - Double Side Cooper|
+|Top Side - Double Layer Cooper|Bottom side - Double Layer Cooper|
 |![](img/top3D_model2_2sided.JPG)|![](img/bottom3D_model2_2sided.JPG)|
 

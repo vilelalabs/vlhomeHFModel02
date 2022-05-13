@@ -1,3 +1,5 @@
+_OBS: este arquivo pode estar desatualizado, sempre confira o README.md em inglês_
+
 # VLHOME Hardware Firmware - MODEL 02
 
 Dispositivo acionado remotamente via Wifi com conexão a banco de dados do Firebase
@@ -52,6 +54,7 @@ Nesta pasta poderão ser encontrados os arquivos necessários para execução el
 - Arquivo da placa (BRD)
 - Arquivo com a lista de componentes (BOM)
 - Arquivo PDF pronto para impressão do Layout da placa
+- MODEL_2_Gerber.zip  para envio para fabricação profissional
 
 # Imagens
 
